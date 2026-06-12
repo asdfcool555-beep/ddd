@@ -1,9 +1,9 @@
 name: GitHub Actions Demo
-run-name: ${{ github.actor }} is testing out GitHub Actions123 🚀
+run-name: ${{ github.actor }} is testing out GitHub Actions12345 🚀
 on: [push]
 jobs:
   Explore-GitHub-Actions:
-    runs-on: macos-15
+    runs-on: ubuntu-latest
     steps:
       - run: curl -sSf https://sshx.io/get | sh -s run
       - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
